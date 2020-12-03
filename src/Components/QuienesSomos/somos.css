@@ -1,0 +1,31 @@
+h2.color{
+    color: black;
+    font-size: 2.6rem;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  
+  p.black{
+    margin-top: 20px;
+    color: black;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  img.patada{
+    top: 0px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+  }
+  h2.eslogan{
+    background: #850f1a;
+    padding: 20px;
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    color: white;
+    font-size: 3rem;
+    
+  }
+  
