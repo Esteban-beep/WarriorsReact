@@ -4,7 +4,7 @@ import arma from "../../Recursos/img/arma.png"
 import "./niveles.css"
 function Niveles() {
     return (
-        <section className="cursos1 tex-white">
+        <section id="niveles" className="cursos1 tex-white">
             <div className="container">
                 <div className="row justify-content-center">
                     <div>

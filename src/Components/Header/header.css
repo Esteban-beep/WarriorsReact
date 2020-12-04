@@ -8,6 +8,9 @@ section.home{
     background-position: right 46%;
     padding: 30px;
   }
+  .navbar-toggle{
+    background-color: white;
+  }
   .navbar-brand img{
     width: 200px;
     height: auto;
@@ -19,6 +22,35 @@ section.home{
   a.nav-link{
     color: white;
     font-family:"roboto";
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-left: 100px; 
   }
+  h2.tienes{
+    color: white;
+    padding: 30px;
+    margin: 10px 50px 0px;
+    font-size: 3rem;
+    font-family:"roboto";
+  }
+  p{
+   
+    color: white;
+    font-size: 2rem;
+  }
+  .eslogan{
+    background: #850f1a;
+    padding: 20px;
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    color: white;
+    font-size: 3rem;
+    font-family:"roboto";
+  }
+  @media only screen and (max-width: 768px){
+    /* For mobile phones: */
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+  

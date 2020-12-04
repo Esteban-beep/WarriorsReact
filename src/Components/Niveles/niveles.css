@@ -1,0 +1,68 @@
+.cursos1{
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 60px;
+  }
+  .cursos1 div{
+    flex-basis: 50%;
+  }
+  .item{
+    padding: 2rem;
+  }
+  
+  .item p{
+    background:#850f1a;
+    border-radius: 100%;
+    position: relative;
+    height: 27rem;
+    width: 27rem;
+    padding: 30px;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .item p img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+  }
+  .item p .arriba{
+    left: 3.75rem;
+  }
+  .item p .centro{
+    top: 50%;
+    transform: translateY(-50%);
+    left:-4rem;
+  }
+  .item p .abajo{
+    top: auto;
+    bottom: 0;
+    left: 3.75rem;
+  }
+  .sub{
+    color: #860f1b;
+  }
+  .parrafo{
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  .title{
+    font-size: 2rem;
+    color:white;
+    
+  }  
+  @media only screen and (max-width: 768px){
+    /* For mobile phones: */
+    [class*="col-"]{
+        width: 100%;
+    }
+}

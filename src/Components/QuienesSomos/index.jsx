@@ -1,4 +1,5 @@
 import modelo1 from "../../Recursos/img/modelo1.png"
+import "./somos.css"
 
 function QuienesSomos() {
     return (

@@ -18,14 +18,10 @@ h2.color{
     height: auto;
     padding: 10px;
   }
-  h2.eslogan{
-    background: #850f1a;
-    padding: 20px;
-    position: absolute;
-    top: 280px;
-    left: 50px;
-    color: white;
-    font-size: 3rem;
-    
-  }
+  @media only screen and (max-width: 768px){
+    /* For mobile phones: */
+    [class*="col-"]{
+        width: 100%;
+    }
+}
   

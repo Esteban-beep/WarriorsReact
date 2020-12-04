@@ -7,7 +7,7 @@ import "./footer.css"
 function Footer() {
     return (
         <footer className="text-light fondo py-5">
-        <div className="container">
+        <div className="container1">
             <div className="row">
             <div className="col-md-4 ">
                 <div>
@@ -40,7 +40,7 @@ function Footer() {
                     <form action="">
                         <div className="form-group"><input type="text" className="form-control" placeholder="Ingresa tu correo"/></div>
                         <div className="form-group d-flex align-items-end">
-                            <button className="btn color1 ml-auto">Enviar</button>
+                            <button className="Nm">Enviar</button>
                         </div>
                     </form>
                 </div>

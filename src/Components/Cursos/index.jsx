@@ -3,8 +3,8 @@ import intrologo from "../../Recursos/img/intrologo.png"
 import "./cursos.css"
 function Cursos() {
     return (
-        <div className="cursos">
-        <div className="containerDy"> 
+        <div id="Cursos" className="cursos">
+          <div className="containerDy"> 
             <div className="row">
                 <div className="col-md-5 well">
                     <img className="cap-img-fluid" src={capdy}alt=""/>
