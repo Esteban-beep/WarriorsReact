@@ -1,18 +1,19 @@
 import {BrowserRouter, Switch, Route, Router} from "react-router-dom";
-import Header from "../pages/home";
-import Formulario from "../pages/Formulario";
-function RouterDOM() {
+import Home from "../pages/home";
+import Registrate from "../pages/Registrate/Registrate";
+function router() {
     return(
         <BrowserRouter basename="warriorsreact">
             <Switch>
                 <Route path="/" exact>
-                    <Header/>
+                    <Home/>
+                    <Router/>
                 </Route>
-                <Route path="/Formulario" exact>
-                    <Formulario/>
+                <Route path="/Registrate" exact>
+                    <Registrate/>
                 </Route>            
             </Switch>
         </BrowserRouter>
     ); 
 }
-export default RouterDOM;
+export default router;
