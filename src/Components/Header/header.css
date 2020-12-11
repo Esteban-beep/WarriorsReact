@@ -8,12 +8,11 @@ section.home{
     background-position: right 46%;
     padding: 30px;
   }
-  .navbar-toggle{
-    background-color: white;
+  .navbar-expand-lg .navbar-toggle{
+   background-color: white;
   }
-  .navbar-brand img{
+  .navbar-brand{
     width: 200px;
-    height: auto;
   }
   .icon-menu{
     color: white;
@@ -22,7 +21,7 @@ section.home{
   a.nav-link{
     color: white;
     font-family:"roboto";
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-left: 100px; 
   }
   h2.tienes{
@@ -33,7 +32,7 @@ section.home{
     font-family:"roboto";
   }
   p{
-   
+    font-family:"roboto";
     color: white;
     font-size: 2rem;
   }
@@ -47,6 +46,34 @@ section.home{
     font-size: 3rem;
     font-family:"roboto";
   }
+  @media screen and (max-width: 500px){
+    .eslogan{
+      font-size: 2rem;
+      
+    }
+    p{
+      font-size: 1.3rem;
+      margin-top: 50px;
+      transform: translateX(10%);
+    }
+  
+  }
+  @media screen and (max-width: 363px){
+    .eslogan{
+      font-size: 2rem;
+    }
+    p{
+      font-size: 1.3rem;
+      margin-top: 50px;
+      transform: translateX(10%);
+    }
+  }
+  @media only screen and (max-width: 768px){
+    /* For mobile phones: */
+    [class*="col-"]{
+        width: 100%;
+    }
+}
   @media only screen and (max-width: 768px){
     /* For mobile phones: */
     [class*="col-"]{

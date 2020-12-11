@@ -8,12 +8,12 @@ import "./footer.css"
 function Footer() {
     return(
         <section className="text-ligth fondo py-4">
-            <div className="container">
-                <div className="row">
-                    <div className="rs mx-4">
-                        <div>
+           <div className="container">
+               <div className="row">
+                   <div className="rs mx-4">
+                       <div>
                             <h3 className="siguenos">Síguenos</h3>
-                            <div className="rs py-4 d-flex">
+                           <div className="rs py-4 d-flex">
                                 <div className="mx-4">
                                     <a href="https://twitter.com/warriors298?s=08" target="blank"/><img src={twitter}/>
                                 </div>
@@ -22,14 +22,15 @@ function Footer() {
                                 </div>
                                 <div className="mx-4">
                                     <a href="https://www.facebook.com/Warriors-102761384691720/" target="blank"/><img src={facebook}/>
+                               </div>
                                 <div className="mx-4">
                                     <a href="https://www.instagram.com/warriors_cursos/" target="blank"/><img src={instagram}/>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
             <div className="formulario mx-4">
                 <div>
                     <h3 className="text">¡Inscríbete Ya</h3>
@@ -43,16 +44,17 @@ function Footer() {
                     </form>
                 </div>
             </div>
-        </section>
-
-        <footer className="d-flex justify-content-center align-items-end flex-wrap">
-                <div className="logoW mx-2">
-                      <img className="img" src={logo}/>
+            <footer class="d-flex justify-content-center align-items-end flex-wrap">
+                <div class="logoW mx-2">
+                      <img class="img" src={logo} alt="logo" width="100px"/>
                 </div> 
-                <p className="textC text-white">
-                ©Copyright Warriors 2020
-            </p> 
+                <p class="textC text-white">
+                ©Copyright Warriors 20100
+            </p>
         </footer>
+        </section>
+        
+        
     )
 }
 export default Footer;

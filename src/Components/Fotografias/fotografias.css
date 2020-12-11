@@ -4,10 +4,26 @@
   .position{
     width: 260px;
   }
-  @media only screen and (max-width: 768px){
-    /* For mobile phones: */
-    [class*="col-"]{
-        width: 100%;
+  h3{
+    font-family:"roboto";
+    color: black;
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 500px){
+    .position{
+      transform: translateX(20%);
     }
-}
+    h3{
+      transform: translateX(20%);
+    }
+  }
+  @media screen and (max-width: 363px){
+    .position{
+      transform: translateX(20%);
+    }
+    h3{
+      transform: translateX(20%);
+      font-size: 1rem;
+    }
+  }
   

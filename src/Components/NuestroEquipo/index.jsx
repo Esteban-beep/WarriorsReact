@@ -6,7 +6,7 @@ import "./nuestroequipo.css"
 
 function NuestroEquipo() {
     return (
-        <section className="equipo">
+        <section id="Equipo" className="equipo">
         <div className="container">
            <div className="row">
                <div className="equi1 col-md-12 well">

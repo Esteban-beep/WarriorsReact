@@ -4,11 +4,11 @@ import arma from "../../Recursos/img/arma.png"
 import "./niveles.css"
 function Niveles() {
     return (
-        <section id="niveles" className="cursos1 tex-white">
+        <section id="Niveles" className="cursos1 tex-white">
             <div className="container">
                 <div className="row justify-content-center">
-                    <div>
-                        <h2 className="title">Niveles de nuestro curso</h2>
+                    <div className="palabras">
+                        <h2 className="title">Niveles del curso</h2>
                         <h3 className="sub">NIVEL 1</h3>
                         <p className="parrafo">Se vera acondicionamiento físico y  reconocimiento de <br/> diversas situaciones de  riesgo que podemos vivir <br/>en nuestro día a día.</p>
                         <h3 className="sub">NIVEL 2</h3>
