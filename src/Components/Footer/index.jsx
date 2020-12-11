@@ -49,7 +49,7 @@ function Footer() {
                       <img class="img" src={logo} alt="logo" width="100px"/>
                 </div> 
                 <p class="textC text-white">
-                ©Copyright Warriors 20100
+                ©Copyright Warriors 2020
             </p>
         </footer>
         </section>

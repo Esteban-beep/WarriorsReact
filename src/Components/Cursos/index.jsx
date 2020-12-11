@@ -7,7 +7,7 @@ function Cursos() {
           <div className="containerDy"> 
             <div className="row">
                 <div className="col-md-5 well">
-                    <img className="cap-img-fluid" src={capdy}alt=""/>
+                    <img className="cap img-fluid" src={capdy}alt=""/>
                 </div>
                     <div className="col-md-5 well">
                         <h2 className="tex-titulo">Cursos</h2>
